@@ -1,0 +1,595 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(47, 46, 46);
+}
+
+header img {
+    filter: invert(80%);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+header img:hover {
+    filter: invert(100%);
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(205, 203, 203);
+    font-family: 'Roboto';
+    transition: .5s ease;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: white;
+}
+
+.head_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    margin-top: 30px;
+
+    width: 100%;
+
+    box-shadow: 0px 15px 12px lightblue;
+    padding-bottom: 15px;
+
+}
+
+.head_side .support_span {
+    color: #0066CC;
+    cursor: pointer;
+}
+
+.head_side .arrow {
+    cursor: pointer;
+}
+
+.iphone13 {
+    width: 1238px;
+    height: 507px;
+    object-fit: contain;
+}
+
+.screenOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 70px;
+
+    width: 100%;
+}
+
+.screenOne .function_spans {
+    padding-top: 20px;
+
+    color: #0066CC;
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.screenOne .function_spans span,
+img {
+    cursor: pointer;
+}
+
+.screenOne .function_spans img:nth-child(2) {
+    margin-right: 25px;
+
+}
+
+
+.imageSE {
+    width: 1238px;
+    height: 307px;
+    object-fit: contain;
+}
+
+.screenTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 6px;
+
+    margin-top: 30px;
+}
+
+.SE_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.screenTwo .function_spans {
+    padding-top: 20px;
+
+    color: #0066CC;
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.screenTwo .function_spans span,
+img {
+    cursor: pointer;
+}
+
+.screenTwo .function_spans img:nth-child(2) {
+    margin-right: 25px;
+
+}
+
+
+.screenThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    width: 100%;
+    height: 732px;
+
+    margin-top: 80px;
+
+    background-color: black;
+    color: white;
+}
+
+.screenThree .left_side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.screenThree .function_spans {
+    padding-top: 20px;
+
+    color: #0066CC;
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.screenThree .function_spans span,
+img {
+    cursor: pointer;
+}
+
+.screenThree .function_spans img:nth-child(2) {
+    margin-right: 25px;
+
+}
+
+.box_ipad {
+    display: flex;
+    align-items: center;
+}
+
+
+.screenFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 280px;
+}
+
+
+.screenFour .left_side,
+.screenFour .right_side {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.screenFour .box .img {
+    width: 500px;
+}
+
+.screenFour .left_side .box , .screenFour .right_side .box {
+    width: 500px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: .5s ease;
+}
+
+.screenFour .left_side .box .img , .screenFour .right_side .box .img {
+    margin-top: 50px;
+}
+
+.screenFour .right_side .box:nth-child(1) .img {
+    margin-top: 80px;
+}
+
+.screenFour .right_side .box:nth-child(2) .img {
+    width: 380px;
+}
+
+.screenFour .right_side .box:nth-child(3)  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to  right, rgb(252, 0, 252), rgb(236, 5, 113), rgb(255, 51, 0), rgb(255, 149, 0), rgb(255, 77, 0) );
+}
+
+.screenFour .box:hover {
+   scale: 1.2;
+    
+}
+
+
+.screenFour .function_spans {
+    padding-top: 20px;
+
+    color: #0066CC;
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.screenFour .function_spans span,
+img {
+    cursor: pointer;
+}
+
+.screenFour .function_spans img:nth-child(2) {
+    margin-right: 25px;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 150px;
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+footer .top {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    footer .middle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 135px;
+
+}
+
+footer .middle  .left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .middle  .miniMid{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+footer .middle  .right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+footer .middle  .right_two{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+
+.modal {
+    display: none;
+    width: 800px;
+    height: 630px;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+    transition: 1s ease;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+
+
+.modal img {
+    filter: invert(80%);
+    transition: .5s ease;
+}
+
+
+.modal img:hover {
+    filter: invert(100%);
+}
+
+.modal span {
+    color: white;
+    font-size: 40px;
+    margin-right: 620px;
+    margin-top: 10px;
+    font-family: 'Courgette';
+
+}
+
+.materials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.modal input {
+    width: 600px;
+
+    padding: 30px;
+    border-radius: 14px;
+    border: none;
+
+    box-shadow: 5px, 15px, 7px, 30px;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.close_btn {
+    width: 150px;
+    padding:15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, rgb(240, 84, 240), rgb(227, 80, 80));
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 570px;
+    right: 30px;
+
+    cursor: pointer;
+
+}
+
+.close_btn:hover{
+    filter: invert(7%);
+}
+
+
+.accardion {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    gap: 10px;
+}
+.accardion .item {
+    width: 100%;
+    background-color: violet ;
+    color: white;
+    border-radius: 10px;
+    padding-top: 15px ;
+    padding-left: 10px;
+    height: 55px;
+    overflow: hidden;
+    transition: .5s ease;
+
+    cursor: pointer;
+}
+.accardion .item h3 {
+    margin-bottom: 13px;
+    font-size: 20px;
+}
+
+
+
+
+
+.screen1 {
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Open Sans';
+
+}
+
+.screen1 .left-side {
+    position: absolute;
+    top:160px;
+    left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 50%;
+    height: 74vh;
+
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: #f4f4f4;
+    padding-left: 50px;
+    margin-left: 50px;
+
+    /* posit    ion: sticky;
+    top: 200px; */
+
+}
+
+
+.screen1 .left-side .img-screen {
+    background-image: url(./apple/base.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1700px;
+    /* margin-top: 60px;     */
+}
+
+.img-right {
+    width: 70px;
+    height: 70px;
+
+    border: none;
+    border-radius: 60px;
+
+    background-color: #cdcbcb;
+
+    padding-top: 14px;
+    padding-left: 18px;
+    margin-right: 20px;
+
+    transition: .5s ease;
+
+    cursor: pointer;
+}
+
+.img-right:hover {
+    filter: invert(100%);
+}
+
+
+
+
+.colours {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.screen1  .colours .color1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(75, 74, 74);
+    border-radius: 100%;
+    transition: .5s;
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+}
+
+.screen1  .colours .color2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(4, 138, 4);
+    border-radius: 100%;
+    background-image: url(./apple/white.jpg);
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+}
+
+.screen1  .colours .color3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(225, 222, 222);
+    border-radius: 100%;
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+
+}
+
+.screen1  .colours .color4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(105, 171, 206);
+    border-radius: 100%;
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+
+}
+
+.screen1  .colours .color5 {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 100%;
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+
+}
+
+.screen1 .colours .color6 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100%;
+    border: 5px solid #acc9d3;
+    cursor: pointer;
+
+}
+
+.back {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
